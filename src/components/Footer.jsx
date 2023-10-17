@@ -47,7 +47,7 @@ const Footer = () => {
             Amausi, Lucknow, Uttar Pradesh <br />
             Pincode: 226009 India 
           </address>
-          <a href="tel:+9186039944898" className="mt-3 d-block mb-1 text-white">+91 8603944898</a>
+          <a href="tel:+918683945898" className="mt-3 d-block mb-1 text-white">+91 8683945898</a>
           <a href="mailto:contact@creativeabhi13.in" className="mt-2 d-block mb-0 text-white">contact@creativeabhi13.in</a>
        <div className='social_icons d-flex align-items-center gap-30 mt-3'>
         <a className='text-white' href=""><BsLinkedin className='fs-5'/></a>
