@@ -62,16 +62,16 @@ const Footer = () => {
                   <a className="text-white" href="">
                     <BsLinkedin className="fs-5" />
                   </a>
-                  <a className="text-white" href="">
+                  <a className="text-white" href="#">
                     <BsGithub className="fs-5" />
                   </a>
-                  <a className="text-white" href="">
+                  <a className="text-white" href="#">
                     <BsYoutube className="fs-5" />
                   </a>
-                  <a className="text-white" href="">
+                  <a className="text-white" href="#">
                     <BsInstagram className="fs-5" />
                   </a>
-                  <a className="text-white" href="">
+                  <a className="text-white" href="#">
                     <BsTwitter className="fs-5" />
                   </a>
                 </div>
