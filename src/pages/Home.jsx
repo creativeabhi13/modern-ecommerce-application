@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import Marquee from "react-fast-marquee";
 import Blogcard from "../components/Blogcard";
 
-
 const Home = () => {
   return (
     <>
@@ -244,14 +243,12 @@ const Home = () => {
         <div className="container-xxl">
           <div className="row">
             <div className="col-12">
-              <h3 className="section-heading">
-                Our Latest Blogs
-              </h3>
+              <h3 className="section-heading">Our Latest Blogs</h3>
             </div>
-           <Blogcard/>
-           <Blogcard/>
-           <Blogcard/>
-           <Blogcard/>
+            <Blogcard />
+            <Blogcard />
+            <Blogcard />
+            <Blogcard />
           </div>
         </div>
       </section>

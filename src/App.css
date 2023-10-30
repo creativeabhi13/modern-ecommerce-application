@@ -16,7 +16,7 @@
 .section-heading
 {
   font-size: 26px;
-  line-height: 32px;
+  line-height: 32px; 
   font-weight: 500;
   margin-bottom: 30px;
 
@@ -239,6 +239,10 @@ footer .input-group-text {
 .blog-content h5{
   font-size: 18px;
   color: var(--color-131921);
+}
+.marquee-inner-wrapper
+{
+  background-color: white;
 }
 .blog-content p.desc{
 font-size: 13px;
