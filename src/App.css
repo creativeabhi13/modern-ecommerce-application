@@ -45,7 +45,9 @@ a {
 .gap-30 {
   gap: 30px;
 }
-
+.Link{
+  text-decoration: none;
+}
 .button {
   background-color: var(--color-232f3e);
   color: white;
@@ -120,6 +122,7 @@ footer .input-group-text {
   color: white;
   padding: 8px 17px;
 }
+
 /* Footer End Here */
 
 /* Home Start Here */

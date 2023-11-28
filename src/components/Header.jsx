@@ -16,7 +16,7 @@ const Header = () => {
             <div className="col-6">
               <p className="text-end text-white mb-0">
                 HotLine:
-                <a className="text-white" href="tel:+918683945898">
+                <a className="text-white text-decoration-none" href="tel:+918683945898">
                   +91 <span>8683945898</span>
                 </a>
               </p>
@@ -29,7 +29,7 @@ const Header = () => {
           <div className="row align-items-center">
             <div className="col-2">
               <h3>
-                <Link className="text-white">Creativeabhi13</Link>
+                <Link className="text-white text-decoration-none text-decoration-none">Creativeabhi13</Link>
               </h3>
             </div>
             <div className="col-5">
@@ -49,15 +49,15 @@ const Header = () => {
             <div className="col-5">
               <div className="header-upper-links d-flex align-items-center justify-content-between">
                 <div>
-                  <Link className="d-flex align-items-center gap-10 text-white">
+                  <Link className="d-flex align-items-center gap-10 text-white text-decoration-none">
                     <img src="/images/compare.svg" alt="compare" />
-                    <p className="mb-0">
+                    <p className="mb-0 ">
                       Compare <br /> Products
                     </p>{" "}
                   </Link>
                 </div>
                 <div>
-                  <Link className="d-flex align-items-center gap-10 text-white">
+                  <Link className="d-flex align-items-center gap-10 text-white text-decoration-none">
                     <img src="/images/wishlist.svg" alt="wishlist" />
                     <p className="mb-0">
                       Favourite <br /> Wishlist
@@ -65,7 +65,7 @@ const Header = () => {
                   </Link>
                 </div>
                 <div>
-                  <Link className="d-flex align-items-center gap-10 text-white">
+                  <Link className="d-flex align-items-center gap-10 text-white text-decoration-none">
                     <img src="/images/user.svg" alt="user" />
                     <p className="mb-0">
                       Log in <br /> My Account
@@ -73,7 +73,7 @@ const Header = () => {
                   </Link>
                 </div>
                 <div>
-                  <Link className="d-flex align-items-center gap-10 text-white">
+                  <Link className="d-flex align-items-center gap-10 text-white text-decoration-none">
                     <img src="/images/cart.svg" alt="" />
                     <div className="d-flex flex-column gap-10">
                       <span className="badge bg-white text-dark">0 </span>
@@ -110,17 +110,17 @@ const Header = () => {
                       aria-labelledby="dropdownMenuButton1"
                     >
                       <li>
-                        <Link className="dropdown-item text-white" to="">
+                        <Link className="dropdown-item text-white text-decoration-none" to="">
                           Action
                         </Link>
                       </li>
                       <li>
-                        <Link className="dropdown-item text-white" to="">
+                        <Link className="dropdown-item text-white text-decoration-none" to="">
                           Another action
                         </Link>
                       </li>
                       <li>
-                        <Link className="dropdown-item text-white" to="">
+                        <Link className="dropdown-item text-white text-decoration-none" to="">
                           Something else here
                         </Link>
                       </li>
@@ -128,11 +128,11 @@ const Header = () => {
                   </div>
                 </div>
                 <div className="menu-links">
-                  <div className="d-flex align-items-center gap-15">
-                    <NavLink to="/">Home</NavLink>
-                    <NavLink to="/">Our Store</NavLink>
-                    <NavLink to="/blogs">Blogs</NavLink>
-                    <NavLink to="/contact">Contact</NavLink>
+                  <div className="d-flex align-items-center gap-15 ">
+                    <NavLink className='text-decoration-none' to="/"> Home</NavLink>
+                    <NavLink className='text-decoration-none' to="/">Our Store</NavLink>
+                    <NavLink className='text-decoration-none' to="/blogs">Blogs</NavLink>
+                    <NavLink className='text-decoration-none' to="/contact">Contact</NavLink>
                   </div>
                 </div>
               </div>

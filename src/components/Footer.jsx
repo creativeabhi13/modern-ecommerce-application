@@ -48,13 +48,13 @@ const Footer = () => {
                 </address>
                 <a
                   href="tel:+918683945898"
-                  className="mt-3 d-block mb-1 text-white"
+                  className="mt-3 d-block mb-1 text-white text-decoration-none"
                 >
                   +91 8683945898
                 </a>
                 <a
                   href="mailto:contact@creativeabhi13.in"
-                  className="mt-2 d-block mb-0 text-white"
+                  className="mt-2 d-block mb-0 text-white text-decoration-none"
                 >
                   contact@creativeabhi13.in
                 </a>
@@ -80,31 +80,31 @@ const Footer = () => {
             <div className="col-3">
               <h4 className="text-white mb-4">Information </h4>
               <div className="footer-Links d-flex flex-column">
-                <Link className="text-white py-2 mb-1">Privacy Policy</Link>
-                <Link className="text-white py-2 mb-1">Refund Policy</Link>
-                <Link className="text-white py-2 mb-1">Shipping Policy</Link>
-                <Link className="text-white py-2 mb-1">Terms Of Service</Link>
-                <Link className="text-white py-2 mb-1">Blogs</Link>
+                <Link className="text-white py-2 mb-1 text-decoration-none">Privacy Policy</Link>
+                <Link className="text-white py-2 mb-1 text-decoration-none">Refund Policy</Link>
+                <Link className="text-white py-2 mb-1 text-decoration-none">Shipping Policy</Link>
+                <Link className="text-white py-2 mb-1 text-decoration-none">Terms Of Service</Link>
+                <Link className="text-white py-2 mb-1 text-decoration-none">Blogs</Link>
               </div>
             </div>
             <div className="col-3">
               <h4 className="text-white mb-4">Account</h4>
               <div className="footer-Links d-flex flex-column">
-                <Link className="text-white py-2 mb-1">Search</Link>
-                <Link className="text-white py-2 mb-1">About Us</Link>
-                <Link className="text-white py-2 mb-1">Faq</Link>
-                <Link className="text-white py-2 mb-1">Contact</Link>
-                <Link className="text-white py-2 mb-1">Size Chart</Link>
+                <Link className="text-white py-2 mb-1 text-decoration-none">Search</Link>
+                <Link className="text-white py-2 mb-1 text-decoration-none">About Us</Link>
+                <Link className="text-white py-2 mb-1 text-decoration-none">Faq</Link>
+                <Link className="text-white py-2 mb-1 text-decoration-none">Contact</Link>
+                <Link className="text-white py-2 mb-1 text-decoration-none">Size Chart</Link>
               </div>
             </div>
             <div className="col-2">
               <h4 className="text-white mb-4">Quick Links </h4>
               <div className="footer-Links d-flex flex-column">
-                <Link className="text-white py-2 mb-1">Laptops</Link>
-                <Link className="text-white py-2 mb-1">Headphones</Link>
-                <Link className="text-white py-2 mb-1">Tablets</Link>
-                <Link className="text-white py-2 mb-1">Mobiles</Link>
-                <Link className="text-white py-2 mb-1">Watch</Link>
+                <Link className="text-white py-2 mb-1 text-decoration-none">Laptops</Link>
+                <Link className="text-white py-2 mb-1 text-decoration-none">Headphones</Link>
+                <Link className="text-white py-2 mb-1 text-decoration-none">Tablets</Link>
+                <Link className="text-white py-2 mb-1 text-decoration-none">Mobiles</Link>
+                <Link className="text-white py-2 mb-1 text-decoration-none" >Watch</Link>
               </div>
             </div>
           </div>
