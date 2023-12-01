@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 :root {
   --color-131921: #131921;
   --color-3b4149: #3b4149;
@@ -11,13 +12,13 @@
   --color-bf4800: #bf4800;
   --color-f5f5f7: #f5f5f7;
   --color-ededed: #ededed;
-  --color-777777:#777777;
-  --color-1c1c1b:#1c1c1b;
+  --color-777777: #777777;
+  --color-1c1c1b: #1c1c1b;
 }
-.section-heading
-{
+
+.section-heading {
   font-size: 26px;
-  line-height: 32px; 
+  line-height: 32px;
   font-weight: 500;
   margin-bottom: 30px;
 
@@ -40,15 +41,19 @@ a {
 .gap-10 {
   gap: 10px;
 }
+
 .gap-15 {
   gap: 15px;
 }
+
 .gap-30 {
   gap: 30px;
 }
-.Link{
+
+.Link {
   text-decoration: none;
 }
+
 .button {
   background-color: var(--color-232f3e);
   color: white;
@@ -61,6 +66,7 @@ a {
   background-color: var(--color-febd69);
   color: var(--color-131921);
 }
+
 /*  Header Start Here   */
 
 .header-top-strip {
@@ -71,6 +77,7 @@ a {
 .header-upper {
   background-color: var(--color-131921);
 }
+
 .header-upper .input-group-text {
   background-color: var(--color-febd69);
 }
@@ -78,6 +85,7 @@ a {
 .header-bottom {
   background-color: var(--color-232f3e);
 }
+
 .header-bottom .menu-links a,
 .header-bottom .dropdown button {
   color: white;
@@ -87,6 +95,7 @@ a {
   letter-spacing: 0.3;
   text-transform: uppercase;
 }
+
 .header-bottom .dropdown button :focus {
   box-shadow: none;
 }
@@ -96,6 +105,7 @@ a {
   width: 100%;
   transform: translate3d(0px, 57px, 0px) !important;
 }
+
 .header-bottom .dropdown-item {
   padding: 15px;
   margin-bottom: 3px;
@@ -133,6 +143,7 @@ footer .input-group-text {
   top: 15%;
   left: 5%;
 }
+
 .main-banner-content h4 {
   font-size: 16px;
   font-weight: 400;
@@ -142,6 +153,7 @@ footer .input-group-text {
   letter-spacing: 0.3px;
   text-transform: uppercase;
 }
+
 .main-banner-content h5 {
   font-size: 52px;
   line-height: 64px;
@@ -149,6 +161,7 @@ footer .input-group-text {
   letter-spacing: -2px;
   text-transform: none;
 }
+
 .main-banner-content p {
   font-size: 18px;
   line-height: 28px;
@@ -160,6 +173,7 @@ footer .input-group-text {
   top: 25%;
   left: 10%;
 }
+
 .small-banner-content h4 {
   font-size: 14px;
   font-weight: 400;
@@ -169,6 +183,7 @@ footer .input-group-text {
   letter-spacing: 0.3px;
   text-transform: uppercase;
 }
+
 .small-banner-content h5 {
   font-size: 22px;
   line-height: 34px;
@@ -176,12 +191,14 @@ footer .input-group-text {
   letter-spacing: -2px;
   text-transform: none;
 }
+
 .small-banner-content p {
   font-size: 14px;
   line-height: 22px;
   color: var(--color-131921);
   letter-spacing: 0.4px;
 }
+
 .small-banner {
   width: 49%;
 }
@@ -197,41 +214,50 @@ footer .input-group-text {
   box-shadow: 0 0 10px #0000001a;
   padding: 15px;
 }
-.categories > div {
+
+.categories>div {
   width: 25%;
   padding: 10px 10px 10px 20px;
 }
-.categories > div > div {
+
+.categories>div>div {
   width: 60%;
 }
-.categories > div:nth-child(1),
-.categories > div:nth-child(2),
-.categories > div:nth-child(3),
-.categories > div:nth-child(4) {
+
+.categories>div:nth-child(1),
+.categories>div:nth-child(2),
+.categories>div:nth-child(3),
+.categories>div:nth-child(4) {
   border-bottom: 1px solid var(--color-ededed);
 }
-.categories > div:nth-child(1),
-.categories > div:nth-child(2),
-.categories > div:nth-child(3) {
+
+.categories>div:nth-child(1),
+.categories>div:nth-child(2),
+.categories>div:nth-child(3) {
   border-right: 1px solid var(--color-ededed);
 }
-.categories > div:nth-child(5),
-.categories > div:nth-child(6),
-.categories > div:nth-child(7) {
+
+.categories>div:nth-child(5),
+.categories>div:nth-child(6),
+.categories>div:nth-child(7) {
   border-right: 1px solid var(--color-ededed);
 }
-.blog-card{
+
+.blog-card {
   background-color: white;
   border-radius: 10px;
 }
-.blog-card img{
+
+.blog-card img {
   border-bottom-left-radius: 10px;
   border-top-right-radius: 10px;
 }
-.blog-content{
+
+.blog-content {
   padding: 15px;
 }
-.blog-content p.date{
+
+.blog-content p.date {
   font-size: 13px;
   line-height: 24px;
   text-transform: uppercase;
@@ -240,77 +266,85 @@ footer .input-group-text {
   color: var(--color-777777);
 }
 
-.blog-content h5{
+.blog-content h5 {
   font-size: 18px;
   color: var(--color-131921);
 }
-.marquee-inner-wrapper
-{
+
+.marquee-inner-wrapper {
   background-color: white;
 }
-.blog-content p.desc{
-font-size: 13px;
-line-height: 22px;
-color: var(--color-777777);
+
+.blog-content p.desc {
+  font-size: 13px;
+  line-height: 22px;
+  color: var(--color-777777);
 
 }
 
 /* Home End Here */
 /* Product Start Here*/
-.product-card{
+.product-card {
   padding: 15px;
   background-color: white;
   border-radius: 10px;
   overflow: hidden;
 }
 
-.product-card .product-img{
+.product-card .product-img {
   height: 270px;
 }
-.product-card .product-img img{
-object-fit: contain;
+
+.product-card .product-img img {
+  object-fit: contain;
 
 
 }
-.product-card .product-img>img:last-child{
+
+.product-card .product-img>img:last-child {
   display: none;
 }
-.product-card:hover .product-img > img:nth-child(1){
-  display: none;
-  
 
-  }
-  .product-card:hover .product-img > img:last-child{
-    display: block;
-    
-  
-  }
-.product-card:hover .action-bar{
-right: 15px;
+.product-card:hover .product-img>img:nth-child(1) {
+  display: none;
+
+
 }
 
-.product-card .product-details h6{
+.product-card:hover .product-img>img:last-child {
+  display: block;
+
+
+}
+
+.product-card:hover .action-bar {
+  right: 15px;
+}
+
+.product-card .product-details h6 {
   color: var(--color-bf4800);
-  font-size: 13px ;
+  font-size: 13px;
 
 }
-.product-card .product-details h5{
+
+.product-card .product-details h5 {
   font-size: 15px;
-  color: var(--color-1c1c1b) ;
+  color: var(--color-1c1c1b);
 }
 
-.product-card .product-details p.price{
+.product-card .product-details p.price {
   font-size: 16px;
   color: var(--color-1c1c1b);
 
 }
 
-.action-bar{
+.action-bar {
   top: 10%;
   right: -23px;
   transform: 0.3s;
 }
-.wishlist-icon{
+
+.wishlist-icon {
   top: 2%;
   right: 15px;
 }
@@ -319,11 +353,11 @@ right: 15px;
 /* product End here */
 
 /* Special Product Start Here */
-.special-product-card
-{
-  padding: 10px;
+.special-product-card {
+  padding:20px 10px;
   border-radius: 10px;
   background-color: white;
 }
+
 
 /*Special Product End Here */
