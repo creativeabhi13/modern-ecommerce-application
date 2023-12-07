@@ -361,3 +361,37 @@ footer .input-group-text {
 
 
 /*Special Product End Here */
+
+
+
+/*  Famous Card Start Here */
+
+.famous-card .famous-content {
+  top: 10%;
+  left: 10%;
+}
+.famous-card img{
+  border-radius: 10px;
+
+}
+.famous-content h5{
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 400px;
+  
+  margin-bottom: 7px;
+
+}
+.famous-content h6{
+font-size: 26px;
+line-height: 38px;
+font-weight: 500px;
+ 
+}
+.famous-content p{
+font-size: 16px;
+line-height: 24px;
+font-weight: 100px;
+
+}
+/* Famous Card End Here */

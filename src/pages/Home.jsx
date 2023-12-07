@@ -219,6 +219,52 @@ const Home = () => {
           </div>
         </div>
       </section>
+      <section className="famous-wrappper py-5 home-wrapper-2">
+       <div className="container-xxl">
+        <div className="row">
+          <div className="col-3">
+            <div className="famous-card position-relative">
+              <img src="/images/famous-banner-01.jpg" className="img-fluid" alt="" />
+              <div className="famous-content position-absolute">
+              <h5>Big Screen</h5>
+              <h6>Smart Watch Series 7</h6>
+              <p>From ₹33,247 or ₹1,385/mo for 24month</p>
+              </div>
+            </div>
+          </div>
+          <div className="col-3">
+            <div className="famous-card position-relative">
+              <img src="/images/famous-banner-02.jpg" className="img-fluid" alt="" />
+              <div className="famous-content position-absolute">
+              <h5>Deal Laptop</h5>
+              <h6>Macbook Series 15</h6>
+              <p>From ₹1,88,247 or ₹8200/mo for 24month</p>
+              </div>
+            </div>
+          </div>
+          <div className="col-3">
+            <div className="famous-card position-relative">
+              <img src="/images/famous-banner-03.jpg" className="img-fluid" alt="" />
+              <div className="famous-content position-absolute">
+              <h5>SMART PHONE</h5>
+              <h6>Smart Phone 13 pro</h6>
+              <p>From ₹93,247 or ₹4300/mo for 24month</p>
+              </div>
+            </div>
+          </div>
+          <div className="col-3">
+            <div className="famous-card position-relative">
+              <img src="/images/famous-banner-04.jpg" className="img-fluid" alt="" />
+              <div className="famous-content position-absolute">
+              <h5>HOME SPEAKER</h5>
+              <h6>Room Filling Sound</h6>
+              <p>From ₹6,257.27 Indian  or ₹350/mo for 24month</p>
+              </div>
+            </div>
+          </div>
+        </div>
+       </div>
+      </section>
       <section className="special-wrapper home-wrapper-2 py-5">
         <div className="container-xxl">
           <div className="row">
