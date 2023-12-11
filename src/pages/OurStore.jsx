@@ -178,7 +178,32 @@ const OurStore = () => {
             </div>
           </div>
           <div className="col-9">
-
+              <div className="filter-sort-grid">
+                <div className="d-flex align-items-center gap-10">
+                  <p className='mb-0'>Sort By:</p> 
+                    <select name="sort_by" id="SortBy" className='facet-filters__sort select__select' aria-aria-describedby='ally-refresh-page-message'>
+                      <option value="manual">Featured</option>
+                      <option value="best-selling" selected="selected">Best Selling</option>
+                      <option value="title-ascending">Albhabetically, A-Z</option>
+                      <option value="title-descending">Albhabetically, Z-A</option>
+                      <option value="price-ascending">Price, low to high</option>
+                      <option value="price-descending">Price, high to low</option>
+                      <option value="created-ascending">Date, old to new</option>
+                      <option value="created-descending">Date, new to old</option>
+                    </select>
+                 
+                </div>
+                <div className="d-flex align-items-center gap-10">
+                  <p className="totalproducts">21 Products</p>
+                  <div className='d-flex gap-10 align-items-center'>
+                    <img src="/images/gr.svg" className="d-block img-fluid" alt="grid" />
+                    <img src="/images/gr2.svg" className="d-block img-fluid" alt="grid" />
+                    <img src="/images/gr3.svg" className="d-block img-fluid" alt="grid" />
+                    <img src="/images/gr4.svg" className="d-block img-fluid" alt="grid" />
+                  </div>
+                </div>
+              </div>
+              
           </div>
         </div>
       </div>

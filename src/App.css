@@ -354,7 +354,7 @@ footer .input-group-text {
 
 /* Special Product Start Here */
 .special-product-card {
-  padding:20px 10px;
+  padding: 20px 10px;
   border-radius: 10px;
   background-color: white;
 }
@@ -370,40 +370,45 @@ footer .input-group-text {
   top: 10%;
   left: 10%;
 }
-.famous-card img{
+
+.famous-card img {
   border-radius: 10px;
 
 }
-.famous-content h5{
+
+.famous-content h5 {
   font-size: 13px;
   line-height: 20px;
   font-weight: 400px;
-  
+
   margin-bottom: 7px;
 
 }
-.famous-content h6{
-font-size: 26px;
-line-height: 38px;
-font-weight: 500px;
- 
-}
-.famous-content p{
-font-size: 16px;
-line-height: 24px;
-font-weight: 100px;
+
+.famous-content h6 {
+  font-size: 26px;
+  line-height: 38px;
+  font-weight: 500px;
 
 }
+
+.famous-content p {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 100px;
+
+}
+
 /* Famous Card End Here */
 
 /* Our Store Start Here */
-.filter-card{
+.filter-card {
   background-color: white;
   border-radius: 10px;
   padding: 15px 15px 25px;
 }
 
-.filter-title{
+.filter-title {
   font-size: 16px;
   line-height: 20px;
   font-weight: 600;
@@ -411,51 +416,61 @@ font-weight: 100px;
   margin-bottom: 20px;
 }
 
-.filter-card ul ,.filter-card .form-check-label{
+.filter-card ul,
+.filter-card .form-check-label {
   list-style: none;
   font-size: 13px;
   line-height: 30px;
   color: var(--color-777777);
   cursor: pointer;
 }
-.filter-card .form-check-input:focus{
+
+.filter-card .form-check-input:focus {
   box-shadow: none;
   border-color: rgba(0, 0, 0, 0.25);
 }
-.filter-card .form-check-input:checked{
+
+.filter-card .form-check-input:checked {
   background-color: var(--color-bf4800);
   border-color: rgba(0, 0, 0, 0.25);
 }
 
-.sub-title{
+.sub-title {
   font-size: 14px;
   font-weight: 600;
   color: var(--color-1c1c1b);
   margin-bottom: 15px;
   margin-top: 20px;
 }
-.colors{
+
+.colors {
   list-style-type: none;
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
 }
-.colors li{
+
+.colors li {
   width: 20px;
   height: 20px;
   background-color: red;
   border-radius: 50%;
 }
-.random-products h5{
-font-size:14px ;
-margin-bottom: 8px;
+
+.random-products h5 {
+  font-size: 14px;
+  margin-bottom: 8px;
 
 }
 
-.random-products:first-child{
+.random-products:first-child {
   border-bottom: 1px solid var(--color-ededed);
 }
-/* Our Store End Here */
 
 
-
+.filter-sort-grid{
+  padding: 10px;
+  background-color: white;
+  border-radius: 10px;
+}
+/* Our Store End Here */ 
