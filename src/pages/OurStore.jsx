@@ -1,10 +1,14 @@
-import React from 'react'
+import React, { useState } from 'react'
 import BreadCrumb from '../components/BreadCrumb';
 import Meta from '../components/Meta';
 import ReactStars from "react-rating-stars-component";
+import ProductCard from '../components/ProductCard';
+
 
 const OurStore = () => {
-  return <>
+  const [grid,setGrid]=useState(4);
+ 
+  return(  <>
     <Meta title={"Our Store"}></Meta>
     <BreadCrumb title="Our Store" />
     <div className="store-wrapper home-wrapper-2 py-5">
@@ -32,13 +36,25 @@ const OurStore = () => {
                   <div className="form-check">
                     <input type="checkbox" className='form-check-input' value="" id="" />
                     <label className='form-check-label' htmlFor="">
-                      In Stock (1)
+                      In Stock (15)
                     </label>
                   </div>
                   <div className="form-check">
                     <input type="checkbox" className='form-check-input' value="" id="" />
                     <label className='form-check-label' htmlFor="">
-                      Out Of Stock (0)
+                      Out Of Stock (40)
+                    </label>
+                  </div>
+                  <div className="form-check">
+                    <input type="checkbox" className='form-check-input' value="" id="" />
+                    <label className='form-check-label' htmlFor="">
+                      Deliver in 1 day (20)
+                    </label>
+                  </div>
+                  <div className="form-check">
+                    <input type="checkbox" className='form-check-input' value="" id="" />
+                    <label className='form-check-label' htmlFor="">
+                      Deliver in 2 days (10)
                     </label>
                   </div>
                 </div>
@@ -88,31 +104,31 @@ const OurStore = () => {
                   <div className="form-check">
                     <input type="checkbox" className='form-check-input' value="" id="color-1" />
                     <label className='form-check-label' htmlFor="color-1">
-                      S (2)
+                      S (250)
                     </label>
                   </div>
                   <div className="form-check">
                     <input type="checkbox" className='form-check-input' value="" id="color-2" />
                     <label className='form-check-label' htmlFor="color-2">
-                      M (3)
+                      M (350)
                     </label>
                   </div>
                   <div className="form-check">
                     <input type="checkbox" className='form-check-input' value="" id="color32" />
                     <label className='form-check-label' htmlFor="color-3">
-                      L (4)
+                      L (400)
                     </label>
                   </div>
                   <div className="form-check">
                     <input type="checkbox" className='form-check-input' value="" id="color-4" />
                     <label className='form-check-label' htmlFor="color-4">
-                      XL (5)
+                      XL (505)
                     </label>
                   </div>
                   <div className="form-check">
                     <input type="checkbox" className='form-check-input' value="" id="color-5" />
                     <label className='form-check-label' htmlFor="color-5">
-                      XXL (6)
+                      XXL (260)
                     </label>
                   </div>
                 </div>
@@ -178,9 +194,10 @@ const OurStore = () => {
             </div>
           </div>
           <div className="col-9">
-              <div className="filter-sort-grid">
+              <div className="filter-sort-grid mb-4">
+              <div className="d-flex justify-content-between align-items-center">
                 <div className="d-flex align-items-center gap-10">
-                  <p className='mb-0'>Sort By:</p> 
+                  <p className='mb-0 d-block' >Sort By:</p> 
                     <select name="sort_by" id="SortBy" className='facet-filters__sort select__select' aria-aria-describedby='ally-refresh-page-message'>
                       <option value="manual">Featured</option>
                       <option value="best-selling" selected="selected">Best Selling</option>
@@ -190,26 +207,30 @@ const OurStore = () => {
                       <option value="price-descending">Price, high to low</option>
                       <option value="created-ascending">Date, old to new</option>
                       <option value="created-descending">Date, new to old</option>
-                    </select>
-                 
+                    </select> 
                 </div>
                 <div className="d-flex align-items-center gap-10">
-                  <p className="totalproducts">21 Products</p>
-                  <div className='d-flex gap-10 align-items-center'>
-                    <img src="/images/gr.svg" className="d-block img-fluid" alt="grid" />
-                    <img src="/images/gr2.svg" className="d-block img-fluid" alt="grid" />
-                    <img src="/images/gr3.svg" className="d-block img-fluid" alt="grid" />
-                    <img src="/images/gr4.svg" className="d-block img-fluid" alt="grid" />
+                  <p className="totalproducts mb-0">21 Products</p>
+                  <div className="d-flex align-items-center grid gap-10 grid">
+                    <img onClick={()=>{setGrid(3);}} src="/images/gr4.svg"  className="d-block img-fluid" alt="grid" />
+                    <img onClick={()=>{setGrid(4);}} src="/images/gr3.svg" className="d-block img-fluid" alt="grid" />
+                    <img onClick={()=>{setGrid(6);}} src="/images/gr2.svg" className="d-block img-fluid" alt="grid" />
+                    <img onClick={()=>{setGrid(12);}} src="/images/gr.svg" className="d-block img-fluid" alt="grid" />
                   </div>
                 </div>
+                </div>
               </div>
-              
+              <div className='products-list pb-5'>
+            <div className="d-flex gap-10 flex-wrap ">
+              <ProductCard grid={grid}/>
+            </div>
+          </div>
           </div>
         </div>
       </div>
     </div>
-
-  </>;
+  </>
+  )
 }
 
-export default OurStore
+export default OurStore;
