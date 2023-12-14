@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useState} from "react";
 import { Link } from "react-router-dom";
 import Marquee from "react-fast-marquee";
 import Blogcard from "../components/Blogcard";
@@ -7,6 +7,7 @@ import SpecialProduct from "../components/SpecialProduct";
 
 
 const Home = () => {
+  const [grid]=useState(3);
   return (
     <>
       <section className="home-wrapper-1 py-5">
@@ -212,10 +213,10 @@ const Home = () => {
             <div className="col-12">
               <h3 className="section-heading">Our Featured Product</h3>
             </div>
-            <ProductCard />
-            <ProductCard />
-            <ProductCard />
-            <ProductCard />
+            <ProductCard grid={grid}/>
+            <ProductCard grid={grid}/>
+            <ProductCard grid={grid}/>
+            <ProductCard grid={grid}/>
           </div>
         </div>
       </section>
@@ -286,10 +287,10 @@ const Home = () => {
             <div className="col-12">
               <h3 className="section-heading">Our Popular Products</h3>
             </div>
-            <ProductCard />
-            <ProductCard />
-            <ProductCard />
-            <ProductCard />
+            <ProductCard grid={grid}/>
+            <ProductCard grid={grid} />
+            <ProductCard grid={grid}/>
+            <ProductCard grid={grid}/>
           </div>
         </div>
       </section>
