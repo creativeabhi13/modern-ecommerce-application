@@ -30,6 +30,9 @@ console.log(location);
             edit={false}
 
           />
+          <p className={`description ${grid=== 12 ? "d-block" : "d-none"}`}>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, dolore commodi ipsum neque fugit quisquam at exercitationem sequi fuga accusantium!
+          </p>
           <p className="price">₹4500.00</p>
         </div>
         <div className="action-bar position-absolute">
@@ -72,6 +75,7 @@ console.log(location);
             edit={false}
 
           />
+          <p className={`description ${grid=== 12 ? "d-block" : "d-none"}`}>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem repudiandae nihil sed dolores, nostrum ipsum soluta doloremque voluptatum fugit iusto.</p>
           <p className="price">₹4500.00</p>
         </div>
         <div className="action-bar position-absolute">
