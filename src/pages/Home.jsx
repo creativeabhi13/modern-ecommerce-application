@@ -213,10 +213,20 @@ const Home = () => {
             <div className="col-12">
               <h3 className="section-heading">Our Featured Product</h3>
             </div>
+            <div className="col-3">
             <ProductCard grid={grid}/>
+            </div>
+            <div className="col-3">
             <ProductCard grid={grid}/>
+            </div>
+            <div className="col-3">
             <ProductCard grid={grid}/>
+            </div>
+            <div className="col-3">
             <ProductCard grid={grid}/>
+            </div>
+            
+           
           </div>
         </div>
       </section>
@@ -337,11 +347,25 @@ const Home = () => {
             <div className="col-12">
               <h3 className="section-heading">Our Latest Blogs</h3>
             </div>
-            <Blogcard />
-            <Blogcard />
-            <Blogcard />
-            <Blogcard />
           </div>
+             <div className="row">
+              <div className="col-3">
+              <Blogcard />
+            
+              </div>
+              <div className="col-3">
+              <Blogcard />
+            
+              </div>
+              <div className="col-3">
+              <Blogcard />
+            
+              </div>
+              <div className="col-3">
+              <Blogcard />
+            
+              </div>
+             </div>
         </div>
       </section>
     </>
