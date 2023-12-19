@@ -29,18 +29,18 @@ const Blog = () => {
                         <div className="col-9">
                             <div className="row">
                                 <div className="col-6 mb-3">
-                                <Blogcard />
+                                    <Blogcard />
                                 </div>
                                 <div className="col-6 mb-3">
-                                <Blogcard />
+                                    <Blogcard />
                                 </div>
                                 <div className="col-6 mb-3">
-                                <Blogcard />
+                                    <Blogcard />
                                 </div>
                                 <div className="col-6 mb-3">
-                                <Blogcard />
+                                    <Blogcard />
                                 </div>
-                               
+
                             </div>
                         </div>
                     </div>

@@ -1,4 +1,4 @@
-import React,{useState} from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import Marquee from "react-fast-marquee";
 import Blogcard from "../components/Blogcard";
@@ -7,7 +7,7 @@ import SpecialProduct from "../components/SpecialProduct";
 
 
 const Home = () => {
-  const [grid]=useState(3);
+  const [grid] = useState(3);
   return (
     <>
       <section className="home-wrapper-1 py-5">
@@ -214,19 +214,19 @@ const Home = () => {
               <h3 className="section-heading">Our Featured Product</h3>
             </div>
             <div className="col-3">
-            <ProductCard grid={grid}/>
+              <ProductCard grid={grid} />
             </div>
             <div className="col-3">
-            <ProductCard grid={grid}/>
+              <ProductCard grid={grid} />
             </div>
             <div className="col-3">
-            <ProductCard grid={grid}/>
+              <ProductCard grid={grid} />
             </div>
             <div className="col-3">
-            <ProductCard grid={grid}/>
+              <ProductCard grid={grid} />
             </div>
-            
-           
+
+
           </div>
         </div>
       </section>
@@ -297,10 +297,10 @@ const Home = () => {
             <div className="col-12">
               <h3 className="section-heading">Our Popular Products</h3>
             </div>
-            <ProductCard grid={grid}/>
             <ProductCard grid={grid} />
-            <ProductCard grid={grid}/>
-            <ProductCard grid={grid}/>
+            <ProductCard grid={grid} />
+            <ProductCard grid={grid} />
+            <ProductCard grid={grid} />
           </div>
         </div>
       </section>
@@ -348,24 +348,24 @@ const Home = () => {
               <h3 className="section-heading">Our Latest Blogs</h3>
             </div>
           </div>
-             <div className="row">
-              <div className="col-3">
+          <div className="row">
+            <div className="col-3">
               <Blogcard />
-            
-              </div>
-              <div className="col-3">
+
+            </div>
+            <div className="col-3">
               <Blogcard />
-            
-              </div>
-              <div className="col-3">
+
+            </div>
+            <div className="col-3">
               <Blogcard />
-            
-              </div>
-              <div className="col-3">
+
+            </div>
+            <div className="col-3">
               <Blogcard />
-            
-              </div>
-             </div>
+
+            </div>
+          </div>
         </div>
       </section>
     </>
